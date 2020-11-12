@@ -1,0 +1,18 @@
+import React, {Component} from 'react';
+
+class FooterComponent extends Component {
+    render() {
+        return (
+            <div>
+                <footer class="page-footer font-small blue">
+
+                    <div class="footer-copyright text-center py-3">© 2020 Copyright: CoPic
+                    </div>
+
+                </footer>
+            </div>
+        );
+    }
+}
+
+export default FooterComponent;
