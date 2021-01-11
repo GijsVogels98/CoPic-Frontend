@@ -1,13 +1,127 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.progress-bar{
+    height: 5px;
+    background: var(--primary);
+    margin-top: 20px;
+}
+
+.content-padding{
+    padding: 0px 100px 0px 100px;
+}
+
+.bg-img{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.home-text{
+    margin-top: 160px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.background{
+    background-color: white;
+    margin: 50px 500px auto 500px;
+    padding: 20px 40px 40px 40px;
+    box-shadow: 3px 5px 7px rgba(0,0,0,0.5);
+    border-radius: 5px;
+}
+.user{
+    text-align: left;
+    color: grey;
+    margin: auto;
+    font-size: 30px;
+    font-weight: 300;
+    max-width: 60%;
+}
+
+.searchbar{
+    width: 650px !important;
+    margin-bottom: 340px;
+
+}
+
+.bg-figure{
+    position: absolute;
+    z-index: -2;
+    left: -120px;
+}
+
+.logo{
+    width: 50%;
+}
+
+.whitetext{
+    color: white !important;
+}
+
+/* image grid styles */
+.img-grid{
+    line-height: 0;
+    -webkit-column-count: 5;
+    -webkit-column-gap: 0px;
+    -moz-column-count: 5;
+    -moz-column-gap: 0px;
+    column-count: 4;
+}
+
+.img-wrap{
+    width: 100% !important;
+    height: auto !important;
+}
+.img-wrap img{
+    padding: 8px;
+    width: 100% !important;
+    height: auto !important;
+}
+.btn-primary:not(:disabled):not(.disabled), .btn-primary:not(:disabled):not(.disabled), .show>.btn-primary.dropdown-toggle{
+    border-style: none;
+    outline: none;
+    background-color: #61C77D !important;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle{
+    border-style: none;
+    outline: none;
+    content: none;
+    background-color: #61C77D !important;
+}
+
+ /*modal styles */
+.backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+.backdrop img{
+    padding-top: 20px;
+    height: 690px;
+    display: block;
+    max-width: 60%;
+    max-height: 80%;
+    margin: 0px auto;
+    
+}
+
+.ReactTags__tagInputField{
+    width: 270px;
 }

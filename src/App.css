@@ -1,13 +1,12 @@
-body{
-  overflow: hidden;
-}
-footer{
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
+body {
 }
 
-.container-fluid{
-  padding:0px !important;
+footer {
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.container-fluid {
+    padding: 0px !important;
 }
