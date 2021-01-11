@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://copic-media-service.herokuapp.com/media/";
+const API_URL = "http://localhost:8080/media/";
 
 class FireService{
 
